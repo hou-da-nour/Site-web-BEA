@@ -15,7 +15,7 @@ const DemoPage = () => {
         {/* Vidéo à gauche */}
         <div className="w-full md:w-1/2">
           <video className="rounded-lg shadow-xl w-full" controls autoPlay muted loop>
-            <source src="/chat.mp4" type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}chat.mp4`} type="video/mp4" />
             Votre navigateur ne supporte pas la vidéo.
           </video>
         </div>
