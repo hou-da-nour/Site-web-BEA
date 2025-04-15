@@ -16,7 +16,7 @@ const AboutDetails = () => {
 
       <div className="flex flex-col lg:flex-row items-center gap-10">
         <img
-          src="/home/chat2.jpg"
+          src={`${import.meta.env.BASE_URL}home/chat2.jpg`}
           alt="Chatbot"
           className="w-full lg:w-1/2 rounded-xl shadow-xl"
         />

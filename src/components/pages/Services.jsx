@@ -21,7 +21,7 @@ const Services = () => {
     {
       title: "Prêts et Crédits",
       description: "Obtenez des informations sur les types de crédits, les taux d'intérêt, les conditions et les démarches à suivre.",
-      img: `${import.meta.env.BASE_URL}services/service3.jpg`
+      img: `${import.meta.env.BASE_URL}services/service3.jpeg`
 
     },
     {
