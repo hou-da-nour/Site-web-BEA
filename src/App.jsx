@@ -12,6 +12,7 @@ import Contact from './components/pages/Contact';
 import Footer from './components/pages/Footer';
 import BackToTopButton from './components/BackToTopButton';
 import Chatbot from './components/Chatbot/src/Appchatbot';
+import Demo from './components/pages/Demo'
 import AboutDetails from './components/pages/About/AboutDetails'; // ← nouvelle page
 import Loader from './components/Loader';
 
@@ -48,6 +49,7 @@ const App = () => {
             <Header />
             <About />
             <Services />
+            <Demo />
             <Contact />
             <Chatbot />
           </>

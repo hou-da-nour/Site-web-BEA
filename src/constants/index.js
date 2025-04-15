@@ -16,11 +16,11 @@ export const navigation = [
         title: "Services" ,
         url :"#services"
     },
-    // { 
-    //     id: "3",
-    //     title: "Démonstration" ,
-    //     url :"#démonstration"
-    // },
+    { 
+        id: "3",
+        title: "Démonstration" ,
+        url :"#démonstration"
+    },
     { 
         id: "4",
         title: "Contact" ,
