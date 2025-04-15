@@ -9,27 +9,32 @@ const Services = () => {
     {
       title: "Informations Générales",
       description: "Horaires, adresses des agences, numéros utiles, et conditions d’utilisation des services BEA.",
-      img: "/services/service1.jpg"
+      img: `${import.meta.env.BASE_URL}services/service1.jpg`
+
     },
     {
       title: "Ouverture de Compte",
       description: "Le chatbot vous guide sur les étapes et documents nécessaires pour ouvrir un compte bancaire BEA.",
-      img: "/services/service2.jpg"
+      img: `${import.meta.env.BASE_URL}services/service2.jpg`
+
     },
     {
       title: "Prêts et Crédits",
       description: "Obtenez des informations sur les types de crédits, les taux d'intérêt, les conditions et les démarches à suivre.",
-      img: "/services/service3.jpeg"
+      img: `${import.meta.env.BASE_URL}services/service3.jpg`
+
     },
     {
       title: "Assistance Client",
       description: "Posez vos questions et le chatbot vous oriente ou vous redirige vers un conseiller si besoin.",
-      img: "/services/service4.jpg"
+      img: `${import.meta.env.BASE_URL}services/service4.jpg`
+
     },
     {
       title: "Sécurité & Conseils",
       description: "Recevez des conseils pour protéger votre compte et éviter les tentatives de fraude.",
-      img: "/services/service5.jpg"
+      img: `${import.meta.env.BASE_URL}services/service5.jpg`
+
     }
   ];
   

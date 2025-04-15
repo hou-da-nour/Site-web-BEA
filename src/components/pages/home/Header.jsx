@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 const Header = () => {
   const images = [
-    '/home/chat.jpg',
-    '/home/chat3.jpg',
-    '/home/chat4.jpg' 
+    `${import.meta.env.BASE_URL}home/chat.jpg`,
+    `${import.meta.env.BASE_URL}home/chat3.jpg`,
+    `${import.meta.env.BASE_URL}home/chat4.jpg`
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
