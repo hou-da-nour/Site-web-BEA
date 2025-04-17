@@ -61,23 +61,53 @@ const App = () => {
     }
   }, [chatHistory, isKeyboardOpen]);
 
-  //  Fonction pour gérer l'envoi de message
-  const handleSendMessage = async (message) => {
-    if (!message.trim()) return;
+   //  Fonction pour gérer l'envoi de message
 
-    setChatHistory(prevHistory => [...prevHistory, { role: "user", text: message }]);
+  // const generateBotResponse = (history) => {
+  //   const last = history[history.length - 1];
+  //   const lastUserMessage = typeof last.text === "string" ? last.text.trim().toLowerCase() : "";
+  
+  //   const fakeAnswers = {
+  //     "bonjour": "Bonjour ! Comment puis-je vous aider ? 😊",
+  //     "horaires": "Nos horaires sont de 8h30 à 16h30, du dimanche au jeudi.",
+  //     "crédit": "Pour demander un prêt, vous devez remplir un formulaire disponible en ligne.",
+  //     "compte": "Vous pouvez ouvrir un compte en ligne ou en agence.",
+  //   };
+  
+  //   const matchedKey = Object.keys(fakeAnswers).find((key) =>
+  //     lastUserMessage.includes(key)
+  //   );
+  
+  //   const responseText = matchedKey
+  //     ? fakeAnswers[matchedKey]
+  //     : "Je suis désolé, je n’ai pas compris votre question.";
+  
+  //   // Supprimer le message "Thinking ..."
+  //   setChatHistory((prev) =>
+  //     [...prev.filter((msg) => msg.text !== "Thinking ..."), { role: "bot", text: responseText }]
+  //   );
+  // };
+  const generateBotResponse = async (history) => {
+    const lastUserMessage = history[history.length - 1].text;
+    
+    // Afficher "Thinking ..."
     setIsLoading(true);
-
-    const botResponse = await askBackendChatbot(message);
-    console.log("Réponse reçue :", botResponse); // 🔹 DEBUG
-
-    setChatHistory(prevHistory => [
-      ...prevHistory,
-      { role: "bot", text: botResponse || "Désolé, pas de réponse du serveur." }
+  
+    const response = await askBackendChatbot(lastUserMessage);
+  
+    // Supprimer le message "Thinking ..." et ajouter la vraie réponse
+    setChatHistory((prev) => [
+      ...prev.filter((msg) => msg.text !== "Thinking ..."),
+      { role: "bot", text: response }
     ]);
-
+  
     setIsLoading(false);
   };
+  
+  
+
+
+
   return (
     <div className={`container ${showChatbot ? "show-chatbot" : ""}`}>
       <button onClick={() => setShowChatbot(prev => !prev)} id="chatbot-toggler">
@@ -121,7 +151,8 @@ const App = () => {
             <ChatForm 
               chatHistory={chatHistory} 
               setChatHistory={setChatHistory} 
-              generateBotResponse={handleSendMessage} 
+              generateBotResponse={generateBotResponse}  
+              
             />
           </div>
         </div>

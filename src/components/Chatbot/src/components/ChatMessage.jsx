@@ -23,21 +23,19 @@
 //   );
 // };
 
-// chatgpt
+// 
 import React from 'react';
 import ChatbotIcon from './ChatbotIcon';
 
 export const ChatMessage = ({ chat }) => {
-
-  console.log("Message reçu :", chat); 
+  console.log("Message reçu :", chat);
 
   return (
     <div className={`message ${chat.role === "bot" ? "bot-message" : "user-message"}`}> 
-      
-      {/* Affichage de l'icône du chatbot uniquement pour les messages du bot */}
+      {/* Icône du chatbot seulement si c'est un message du bot */}
       {chat.role === "bot" && <ChatbotIcon />}
 
-      {/* Vérification si le chatbot est en train de taper (animation "…") */}
+      {/* Message ou animation */}
       {chat.isTyping ? (
         <div className="typing-dots">
           <span></span>

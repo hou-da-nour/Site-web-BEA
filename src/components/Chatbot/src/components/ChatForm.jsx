@@ -65,7 +65,7 @@
 //   );
 // };
 
-// chatpbt
+// 
 import { useRef } from "react";
 
 export const ChatForm = ({ chatHistory, setChatHistory, generateBotResponse }) => {
@@ -73,26 +73,46 @@ export const ChatForm = ({ chatHistory, setChatHistory, generateBotResponse }) =
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const userMessage = inputRef.current.value.trim();  
+
+    const userMessage = String(inputRef.current.value).trim();
+    console.log("Input message:", inputRef.current.value);
+
 
     if (!userMessage) return;
-    inputRef.current.value = "";  
 
-    // Ajouter le message utilisateur dans l'historique
-    setChatHistory(history => [...history, { role: "user", text: userMessage }]);
+    // Nettoyer le champ input
+    inputRef.current.value = "";
 
-    // Ajouter un message de "chargement" du bot
+    // Nouveau tableau d'historique avec le message de l'utilisateur
+    const updatedHistory = [...chatHistory, { role: "user", text: userMessage }];
+    setChatHistory(updatedHistory);
+
+    // Ajouter un message "bot typing..." puis appeler generateBotResponse
+    // setTimeout(() => {
+    //   setChatHistory(prev => [...prev, { role: "bot", text: "Thinking ..." }]);
+
+    //   // Appeler le backend ou générer une réponse fictive
+    //   generateBotResponse(updatedHistory);
+    // }, 600);
     setTimeout(() => {
-      setChatHistory(history => [...history, { role: "bot", text: "Thinking ..." }]);
-
-      // Appeler la fonction pour obtenir la réponse du bot
+      // Affiche un message temporaire "Thinking..."
+      setChatHistory((prev) => [...prev, { role: "bot", text: "Thinking ..." }]);
+    
+      // Appelle la fonction de génération
       generateBotResponse([...chatHistory, { role: "user", text: userMessage }]);
     }, 600);
+    
   };
 
   return (
     <form action="#" className="chat-form" onSubmit={handleFormSubmit}>
-      <input ref={inputRef} type="text" placeholder="Poser une question" className="message-input" required />
+      <input
+        ref={inputRef}
+        type="text"
+        placeholder="Poser une question"
+        className="message-input"
+        required
+      />
       <button className="material-symbols-rounded">arrow_upward</button>
     </form>
   );

@@ -195,7 +195,7 @@ body{
   padding: 6px;
   flex-shrink: 0;
   fill: #CAF0F8;
-  background-color: #023E8A;
+  background-color: #0077B6;
   border-radius: 50%;
   margin-bottom: 2px;
   align-self: flex-end;
@@ -211,27 +211,22 @@ body{
   white-space: pre-line;
   font-size: 0.95rem;
 } 
-/* .chat-body .user-message{
+
+.chat-body .user-message {
   flex-direction: column;
-  align-items: flex-end;
-} */
+  align-items: flex-end; /* messages à droite */
+}
+
+.chat-body .bot-message {
+  flex-direction: row;
+  align-items: flex-start; /* messages à gauche */
+}
+
 .chat-body .user-message .message-text{
   color: #CAF0F8;
   background-color: #023E8A;
   border-radius: 13px 13px 3px 13px;
 } 
-
-/* 🔹 Aligner les messages du bot à gauche */
-.chat-body .bot-message {
-  flex-direction: row; /* Icône à gauche, texte à droite */
-  align-items: flex-start;
-}
-
-/* 🔹 Aligner les messages de l'utilisateur à droite */
-.chat-body .user-message {
-  flex-direction: row-reverse; /* Icône à droite, texte à gauche */
-  align-items: flex-end;
-}
 
 
 /* Chat footer  */
