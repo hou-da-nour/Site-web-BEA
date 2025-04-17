@@ -28,11 +28,10 @@ const App = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-      // Simule un chargement (par exemple appel API ou animation d'intro)
+      // Simule le chargement du site
       const timer = setTimeout(() => {
         setLoading(false);
-      }, 3000); // 3 secondes
-  
+      }, 2000); // Tu peux adapter le délai ou le baser sur un fetch
       return () => clearTimeout(timer);
     }, []);
   
