@@ -29,7 +29,7 @@ body{
 
 #chatbot-toggler{
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   right: 50px;
   border: none;
   width: 100px;
@@ -62,7 +62,7 @@ body{
   position: fixed;
   opacity: 0;
   pointer-events: none;
-  bottom: 110px;
+  bottom: 125px;
   right: 55px;
   width: 360px;     /* size de chatbot*/
   transform: scale(0.2);
