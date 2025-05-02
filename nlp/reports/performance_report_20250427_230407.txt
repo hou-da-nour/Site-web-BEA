@@ -1,0 +1,42 @@
+=== Rapport Détaillé de Performance ===
+Date: 2025-04-27T23:00:03.900265
+
+1. Métriques Globales:
+- Nombre de questions testées: 1283
+- Temps moyen sans cache: 0.189s
+- Temps moyen avec cache: 0.000s
+- Accélération: 50302.16x
+
+2. Détails par Question:
+
+Questions avec le meilleur gain de performance:
+
+Question: quels sont les étapes de la transaction en ligne pour une carte mastercard 
+- Temps sans cache: 6.588s
+- Temps avec cache: 0.000s
+- Accélération: 823439.50x
+
+Question: le code derrière la carte ne passe pas
+- Temps sans cache: 2.442s
+- Temps avec cache: 0.000s
+- Accélération: 488315.80x
+
+Question: pourriezvous expliquer pour quelles raisons un impayé peutil être émis 
+- Temps sans cache: 1.230s
+- Temps avec cache: 0.000s
+- Accélération: 409904.67x
+
+Question: quel est le statut juridique de la bea 
+- Temps sans cache: 1.446s
+- Temps avec cache: 0.000s
+- Accélération: 361444.25x
+
+Question: comment valider la commande de ma carte débit 
+- Temps sans cache: 0.705s
+- Temps avec cache: 0.000s
+- Accélération: 352353.50x
+
+3. Conclusion:
+- Le cache améliore les performances de 50302.16x en moyenne
+- 1283 questions bénéficient du cache
+- Le gain de performance est plus important pour les questions répétées

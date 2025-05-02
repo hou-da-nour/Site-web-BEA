@@ -1,0 +1,42 @@
+=== Rapport Détaillé de Performance ===
+Date: 2025-04-27T22:50:05.563396
+
+1. Métriques Globales:
+- Nombre de questions testées: 100
+- Temps moyen sans cache: 0.271s
+- Temps moyen avec cache: 0.000s
+- Accélération: 79477.88x
+
+2. Détails par Question:
+
+Questions avec le meilleur gain de performance:
+
+Question: quels sont les étapes de la transaction en ligne pour une carte mastercard 
+- Temps sans cache: 5.766s
+- Temps avec cache: 0.000s
+- Accélération: 823750.57x
+
+Question: je souhaiterais comprendre quel est le délai de traitement d’un litige retrait 
+- Temps sans cache: 0.484s
+- Temps avec cache: 0.000s
+- Accélération: 241870.50x
+
+Question: pourriezvous expliquer où doiton formuler une réclamation en cas de litige de retrait 
+- Temps sans cache: 0.679s
+- Temps avec cache: 0.000s
+- Accélération: 226459.33x
+
+Question: qu est ce que l interchange dans le processus de paiement par carte bancaire
+- Temps sans cache: 0.827s
+- Temps avec cache: 0.000s
+- Accélération: 206856.75x
+
+Question: quel est le délai de réclamation pour un litige paiement 
+- Temps sans cache: 0.620s
+- Temps avec cache: 0.000s
+- Accélération: 206728.00x
+
+3. Conclusion:
+- Le cache améliore les performances de 79477.88x en moyenne
+- 100 questions bénéficient du cache
+- Le gain de performance est plus important pour les questions répétées

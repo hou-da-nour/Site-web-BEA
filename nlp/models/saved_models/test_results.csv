@@ -1,0 +1,12 @@
+Question,Catégorie Prédite,Confiance,Est Confiant,Est Presque Ambigu,Distance,Entropie,Top 2,Catégories Alternatives
+Comment activer ma carte bancaire ?,Sécurité,1.000000,True,False,1.000000,0.000000,Prépayée (0.246684),Aucune
+Quels sont les horaires d'ouverture des agences ?,Compte,1.000000,True,False,1.000000,0.000000,Prépayée (0.174776),Aucune
+Comment faire un virement vers un autre compte ?,Transaction,1.000000,True,False,1.000000,0.000000,Transaction (0.246928),Aucune
+Que faire en cas de perte de ma carte ?,Sécurité,0.233589,False,False,0.120082,2.034854,Générale (0.113507),Aucune
+Comment consulter mon solde en ligne ?,Compte,1.000000,True,False,1.000000,0.000000,Prépayée (0.169430),Aucune
+Quelles sont les étapes pour un paiement en ligne ?,Transaction,1.000000,True,False,1.000000,0.000000,Transaction (0.247364),Aucune
+Comment contacter le service client ?,Compte,1.000000,True,False,1.000000,0.000000,Sécurité (0.181927),Aucune
+Quels sont les frais de tenue de compte ?,Compte,1.000000,True,False,1.000000,0.000000,Prépayée (0.246806),Aucune
+Comment bloquer ma carte en cas de vol ?,Sécurité,1.000000,True,False,1.000000,0.000000,Sécurité (0.247261),Aucune
+Quelle est la procédure pour un litige sur un paiement ?,Transaction,1.000000,True,False,1.000000,0.000000,Transaction (0.247381),Aucune
+salut,Salutation,1.000000,True,False,1.000000,0.000000,Sécurité (0.207707),Aucune

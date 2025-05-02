@@ -1,0 +1,496 @@
+[1mdiff --git a/models/saved_models/classifier.joblib b/models/saved_models/classifier.joblib[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1507f3b[m
+Binary files /dev/null and b/models/saved_models/classifier.joblib differ
+[1mdiff --git a/models/saved_models/comparison_results/comparison_20250427_220528.json b/models/saved_models/comparison_results/comparison_20250427_220528.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d545e11[m
+[1m--- /dev/null[m
+[1m+++ b/models/saved_models/comparison_results/comparison_20250427_220528.json[m
+[36m@@ -0,0 +1,11563 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "timestamp": "2025-04-27T22:00:24.646050",[m
+[32m+[m[32m  "questions": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les étapes de la transaction en ligne pour une carte mastercard ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 1.1e-05[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 9.449588[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les étapes de la échange en ligne pour une carte mastercard",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 7e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 1.364907[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les étapes de la paiement en ligne pour une carte mastercard",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.191435[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les étapes de la transaction en ligne pour une cb mastercard",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 7e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.281179[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "questce que linterchange dans le processus de paiement par carte ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.21736[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "qu est ce que l interchange dans le processus de paiement par cb",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.274564[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "qu est ce que l interchange dans le processus de paiement par carte bancaire",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.218193[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "qu est ce que l interchange dans le processus de paiement par carte de paiement",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.308599[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "questce quun impayé chargeback ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.308349[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer questce quun impayé chargeback ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.186781[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre questce quun impayé chargeback ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.176548[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de questce quun impayé chargeback  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.763806[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pour quelles raisons un impayé peutil être émis ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.186093[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer pour quelles raisons un impayé peutil être émis ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.191933[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre pour quelles raisons un impayé peutil être émis ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.185314[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de pour quelles raisons un impayé peutil être émis  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.19738[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "comment fonctionne le processus de paiement via paypal ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.212344[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "de quelle manière fonctionne le processus de paiement via paypal ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.237578[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quelle est la méthode pour fonctionne le processus de paiement via paypal ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.180658[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer comment fonctionne le processus de paiement via paypal ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.219262[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quelles sont les commissions appliquées lors dune transaction mastercard ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.235319[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quelles sont les commissions appliquées lors d une échange mastercard",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.189173[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quelles sont les commissions appliquées lors d une paiement mastercard",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.191366[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quelles sont les commissions appliquées lors d une opération mastercard",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.174519[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les acteurs impliqués dans une transaction de paiement par carte ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.199236[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les acteurs impliqués dans une échange de paiement par carte",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.182725[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les acteurs impliqués dans une transaction de paiement par cb",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.207036[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels sont les acteurs impliqués dans une paiement de paiement par carte",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 6e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.184824[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "qu’estce qu’un litige monétique lors d’un retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3.4e-05[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.2085[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer qu’estce qu’un litige monétique lors d’un retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.898548[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre qu’estce qu’un litige monétique lors d’un retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.193548[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de qu’estce qu’un litige monétique lors d’un retrait  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.21225[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "que faire en cas de retrait non délivré mais débité ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.233596[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer que faire en cas de retrait non délivré mais débité ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 6e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.229479[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre que faire en cas de retrait non délivré mais débité ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.21472[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de que faire en cas de retrait non délivré mais débité  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.255189[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quels documents fournir pour une réclamation de retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 6e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.727958[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer quels documents fournir pour une réclamation de retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.208313[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre quels documents fournir pour une réclamation de retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.191449[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de quels documents fournir pour une réclamation de retrait  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 6e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.215379[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "quel est le délai de traitement d’un litige retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.213091[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer quel est le délai de traitement d’un litige retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 6e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.206778[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre quel est le délai de traitement d’un litige retrait ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.229526[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de quel est le délai de traitement d’un litige retrait  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.19671[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "comment savoir si une transaction a été régularisée ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.214724[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "comment savoir si une échange a été régularisée",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.781952[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "comment savoir si une paiement a été régularisée",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.168166[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "comment savoir si une opération a été régularisée",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.186215[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "et si la réclamation est rejetée ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.189764[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "pourriezvous expliquer et si la réclamation est rejetée ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 5e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.182544[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "je souhaiterais comprendre et si la réclamation est rejetée ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 6e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.17552[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "à propos de et si la réclamation est rejetée  pourriezvous détailler ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.182692[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "que faire en cas de litige sur un paiement par carte cib ",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 3e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "without_cache": {[m
+[32m+[m[32m        "time": 0.207423[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "question": "que faire en cas de litige sur un paiement par cb cib",[m
+[32m+[m[32m      "with_cache": {[m
+[32m+[m[32m        "time": 4e-06[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "wit

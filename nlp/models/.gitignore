@@ -1,0 +1,11 @@
+# Ignorer tous les fichiers de modèles
+*.joblib
+*.pkl
+*.npy
+*.h5
+*.pt
+*.bin
+*.json
+
+# Garder le dossier
+!.gitkeep 
