@@ -1,5 +1,5 @@
 package org.example.controllers;
-
+import org.example.services.ChatbotService ;
 import org.example.models.Question;
 import org.example.repositories.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,16 +12,17 @@ import java.util.List;
 @RestController
 @RequestMapping("/chatbot")
 public class ChatbotController {
-
+    @Autowired
+    private ChatbotService chatbotService;
     @Autowired
     private QuestionRepository questionRepository;
 
     // 🔹 L'utilisateur envoie une question en JSON et reçoit une réponse en JSON
     @PostMapping
     public QuestionResponse askQuestion(@RequestBody QuestionRequest request) {
-        return questionRepository.findByQuestiontextIgnoreCase(request.getQuestion())
-                .map(q -> new QuestionResponse(q.getAnswertext()))
-                .orElseGet(() -> new QuestionResponse("Je ne connais pas encore la réponse à cette question."));
+        System.out.println("💬 Question reçue : " + request.getQuestion());
+        String response = chatbotService.getResponse(request.getQuestion());
+        return new QuestionResponse(response);
     }
 
     // 🔹 Ajout d'une nouvelle question avec réponse (JSON)

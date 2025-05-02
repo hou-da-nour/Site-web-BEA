@@ -26,14 +26,15 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .cors(cors -> cors.configurationSource(corsConfigurationSource())) // Utilisation de la méthode corsConfigurationSource()
-                .csrf(csrf -> csrf.disable()) // Désactiver CSRF pour simplifier les tests
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // JWT = pas de session
+                .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+                .csrf(csrf -> csrf.disable()) // Désactive CSRF (utile si tu n'as pas de formulaire)
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/questions/**").authenticated() // Protection des questions
-                        .requestMatchers("/admin/**").permitAll() // Accès libre pour les admins
+                        .requestMatchers("/api/questions/**").permitAll() // ✅ Permet l'accès sans authentification
+                        .requestMatchers("/admin/**").authenticated() // 🔐 Admin protégé
+                        .requestMatchers("/chatbot").permitAll() // 👈 AJOUTE ÇA ICI
                 )
-                .httpBasic(withDefaults()); // Activation de l'authentification Basic
+                .httpBasic(withDefaults());
 
         return http.build();
     }

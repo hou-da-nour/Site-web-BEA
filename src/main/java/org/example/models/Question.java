@@ -1,11 +1,16 @@
 package org.example.models;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.time.LocalDateTime;
-
+@RestController
+@RequestMapping("/api/questions")
+@CrossOrigin(origins = "http://localhost:5173")
 @Entity
 @Table(name = "questions")
 @Getter
@@ -25,6 +30,7 @@ public class Question {
 
     @Column(nullable = false)
     private LocalDateTime created_at = LocalDateTime.now();
+    private String category; // Ex: "compte", "crédit", "sécurité"
 
 
 

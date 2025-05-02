@@ -4,6 +4,7 @@ import org.example.models.Question;
 import org.example.repositories.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import java.util.Optional;
 
 import java.util.List;
 
@@ -49,5 +50,11 @@ public class QuestionService {
 
         questionRepository.delete(question);
     }
+
+
+    public List<Question> findByText(String questiontext) {
+        return questionRepository.findByQuestiontextIgnoreCase(questiontext);
+    }
+
 
 }
